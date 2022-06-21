@@ -55,6 +55,7 @@ a:hover {
 }
 
 #logo {
+  padding-left: 50px;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -64,9 +65,10 @@ a:hover {
 }
 
 #header {
+  border: 8px solid var(--color1);
   box-sizing: border-box;
   height: 70px;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +83,7 @@ a:hover {
 
 #menu a {
   display: block;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
 #btn-mobile {
@@ -151,4 +153,24 @@ a:hover {
 main {
     padding-top: 20px;
     text-align: center;
+}
+
+section {
+    width: 550px;
+    height: 475px;
+    background-color: var(--color5);
+    overflow: hidden;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0D0D0D;
+    color: var(--color1);
 }

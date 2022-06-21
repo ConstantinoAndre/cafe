@@ -21,6 +21,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 body {
+    overflow: hidden;
     font-family: 'Bebas Neue', cursive;
     background-image: url('imagens/cafe.jpg');
     background-size: cover;
@@ -65,9 +66,10 @@ a:hover {
 }
 
 #header {
+  border: 8px solid var(--color1);
   box-sizing: border-box;
   height: 70px;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +84,7 @@ a:hover {
 
 #menu a {
   display: block;
-  padding: 0.5rem;
+  padding: 1.5rem;
 }
 
 #btn-mobile {
@@ -147,4 +149,20 @@ a:hover {
     transform: rotate(-135deg);
     top: -7px;
   }
+}
+
+main {
+  width: 100vw;
+  height: 600px;
+}
+
+section {
+  
+}
+
+footer {
+  padding: 20px;
+  background-color: #0D0D0D;
+  color: var(--color1);
+  text-align: center;
 }
