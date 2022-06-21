@@ -55,6 +55,7 @@ a:hover {
 }
 
 #logo {
+  padding-left: 50px;
   font-size: 1.5rem;
   font-weight: bold;
 }
