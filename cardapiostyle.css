@@ -54,15 +54,15 @@ a:hover {
     width: 60%;
 }
 
-#header {
-  border: 8px solid var(--color1);
+#header {  
+  border: 8px solid var(--color4);
   box-sizing: border-box;
   height: 70px;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--color1);
+  background: var(--color4);
 }
 
 #menu {
@@ -275,7 +275,6 @@ footer {
 }
 body {
     
-    
     overflow: auto;
     font-family: 'Bebas Neue', cursive;
     background-image: url('imagens/cafe.jpg');
@@ -338,6 +337,7 @@ aside.show {
 main {
     flex:1;
     padding:20px;
+    margin-top: 60px;
 }
 h1 {
     font-family:'Hepta Slab', Helvetica, Arial;
@@ -599,16 +599,16 @@ h1 {
 .cart--finalizar {
     padding:20px 30px;
     border-radius:20px;
-    background-color:#48d05f;
+    background-color:var(--color3);
     color:#FFF;
     cursor:pointer;
     text-align:center;
     margin-top:20px;
-    border:2px solid #63f77c;
+    border:2px solid var(--color4);
     transition: all ease .2s;
 }
 .cart--finalizar:hover {
-    background-color:#35af4a;
+    background-color:var(--color3);
 }
 
 @media (max-width:1000px) {
