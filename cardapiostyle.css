@@ -276,7 +276,7 @@ footer {
 body {
     
     
-    overflow: hidden;
+    overflow: auto;
     font-family: 'Bebas Neue', cursive;
     background-image: url('imagens/cafe.jpg');
     background-size: cover;
