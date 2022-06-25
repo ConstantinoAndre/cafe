@@ -277,11 +277,6 @@ body {
     
     overflow: auto;
     font-family: 'Bebas Neue', cursive;
-    background-image: url('imagens/cafe.jpg');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color:var(--color1);
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
