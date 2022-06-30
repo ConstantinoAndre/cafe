@@ -65,7 +65,7 @@ a:hover {
 }
 
 #header {
-  overflow: hidden;
+  width: 100%;
   border: 8px solid var(--color1);
   box-sizing: border-box;
   height: 70px;
