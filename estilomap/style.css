@@ -177,3 +177,9 @@ footer {
     background-color: #0D0D0D;
     color: var(--color1);
 }
+
+.footer {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
