@@ -156,10 +156,6 @@ main {
   height: 600px;
 }
 
-section {
-  
-}
-
 .menu {
   flex: 1;
   display: flex;
