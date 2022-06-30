@@ -354,8 +354,8 @@ h1 {
     text-decoration: none;
 }
 .pizza-item--img {
-    width:200px;
-    height:200px;
+    width:170px;
+    height:150px;
     background-color:var(--color3);
     border-radius:100px;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
