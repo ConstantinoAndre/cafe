@@ -543,7 +543,7 @@ h1 {
 .cart--item {
     display:flex;
     align-items:center;
-    margin:10px 0;
+    margin:40px 0;
 }
 .cart--item img {
     width:40px;
@@ -577,8 +577,8 @@ h1 {
 }
 .cart--totalitem {
     padding:15px 0;
-    border-top:1px solid #79b9dd;
-    color:#315970;
+    border-top:1px solid var(--color5);
+    color:var(--color1);
     display:flex;
     justify-content: space-between;
     font-size:15px;
@@ -603,7 +603,7 @@ h1 {
     transition: all ease .2s;
 }
 .cart--finalizar:hover {
-    background-color:var(--color3);
+    background-color:var(--color4);
 }
 
 @media (max-width:1000px) {
