@@ -55,14 +55,14 @@ a:hover {
 }
 
 #header {  
-  border: 8px solid var(--color4);
+  border: 8px solid var(--color1);
   box-sizing: border-box;
   height: 70px;
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--color4);
+  background: var(--color1);
 }
 
 #menu {
@@ -143,10 +143,6 @@ a:hover {
 main {
   width: 100vw;
   height: 600px;
-}
-
-section {
-  
 }
 
 .menu {
@@ -278,6 +274,10 @@ body {
     overflow: auto;
     font-family: 'Bebas Neue', cursive;
     background-color:var(--color1);
+    background-image: url('estilo/imagens/menu1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left center;
     font-family:'Lato',Helvetica,Arial;
     font-size:15px;
     display:flex;
@@ -294,7 +294,7 @@ header {
     top:0;
     right:0;
     height:60px;
-    background-color:var(--color4);
+    background-color:var(--color1);
     display:none;
     justify-content: flex-end;
     align-items: center;
@@ -302,7 +302,7 @@ header {
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
-    background-color: var(--color1);
+    background-color: var(--color3);
     padding: 5px 20px;
     border-radius: 5px;
 }
@@ -382,7 +382,8 @@ h1 {
 }
 .pizza-item--price {
     font-size:15px;
-    color:#333;
+    font-weight: bold;
+    color:var(--color5);
     margin-top:5px;
 }
 .pizza-item--name {
