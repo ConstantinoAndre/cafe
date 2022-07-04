@@ -183,8 +183,8 @@ main {
 
 .content {
   margin-top: 60px;
-  height: 400px;
-  width: 350px;
+  height: 350px;
+  width: 300px;
   border-radius: 20px;
   overflow: hidden;
   position: absolute;
